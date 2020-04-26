@@ -53,7 +53,7 @@ public class Registration {
 
     public Registration(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(this.driver, this);
     }
 
     private void createUser(NewUser newUser){

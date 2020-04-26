@@ -18,7 +18,7 @@ public class RegistrationConfirmation {
 
     public RegistrationConfirmation(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(this.driver, this);
     }
 
     public List<String> getAllTextFields() {
